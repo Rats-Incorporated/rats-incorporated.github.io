@@ -1,2 +1,2 @@
-# Rats-Incorporated.github.io
-Landing page for our 2D platformer and game development group.
+# rats-incorporated.github.io
+This is the main landing page for the Rats Incorporated OSU CS Capstone group.
