@@ -24,11 +24,6 @@ body, html {
   z-index: 0;
 }
 
-.bgimg-1 > * {
-  position: relative;
-  z-index: 1;
-}
-
 .w3-bar .w3-button {
   padding: 16px;
 }

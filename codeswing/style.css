@@ -10,9 +10,9 @@ body, html {
   position: relative;
   background-position: center;
   background-size: cover;
-  background-image: url("/images/ratsam1.png");
+  background-image: url("../images/ratsam1.png");
   background-position: 30% 50%;
-  min-height: 100%;
+  min-height: 100vh;
   overflow: hidden;
 }
 
@@ -22,11 +22,6 @@ body, html {
   inset: 0;
   background-color: rgba(0, 0, 0, 0.6);
   z-index: 0;
-}
-
-.bgimg-1 > * {
-  position: relative;
-  z-index: 1;
 }
 
 .w3-bar .w3-button {
