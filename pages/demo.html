@@ -9,6 +9,18 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="./css/style.css">
 <link rel="icon" type="image/x-icon" href="./images/icon.png">
+<style>
+  h2, h3 {
+    margin-bottom: 0;
+  }
+  p {
+    margin-top: 0;
+  }
+  img {
+    width: 100%;
+    max-width: 600px;
+  }
+</style>
 </head>
 <body>
 
@@ -36,42 +48,115 @@
 
 <br><br><br>
 
+<div class="w3-container">
+<!-- Title -->
+<div class="w3-panel w3-grey w3-round-large">
+  <h1 class="w3-bold w3-opacity w3-xxxlarge"><b>Rat Demo</b></h1>
+</div>
+
 <!-- Features -->
 <div class="w3-panel w3-leftbar">
   <h1>Features</h1>
 </div>
 
 <div class="w3-container">
+
+  <!-- Combat -->
   <h2>Combat</h2>
-  <p class="w3-large">Currently our game supports</p>
+  <p class="w3-large">
+    Currently our game supports combat in the form of fighting different enemies with a couple of different moves and skills the player can use.
+  </p>
+
+  <h3 class="w3-xlarge"><i>Swing</i></h3>
+  <p class="w3-large">A basic attack the player has access to, a simple swing in front.</p>
+  <img src="../images/pink.png" alt="">
+  <p class="w3-small">Input</p>
+
+  <h3 class="w3-xlarge"><i>Swipe</i></h3>
+  <p class="w3-large">An alternative attack that swipes a bit further than the basic swing.</p>
+  <img src="../images/pink.png" alt="">
+  <p class="w3-small">Input</p>
+
+  <h3 class="w3-xlarge"><i>Flurry Rush</i></h3>
+  <p class="w3-large">Unleashes a flurry of swipes doing high amounts of damage in a short amount of time.</p>
+  <img src="../images/pink.png" alt="">
+  <p class="w3-small">Input</p>
+
+  <h3 class="w3-xlarge"><i>Shuriken</i></h3>
+  <p class="w3-large">The player has access to shurikens for their ranged attacks.</p>
+  <img src="../images/pink.png" alt="">
+  <p class="w3-small">Input</p>
+
+  <!-- Movement -->
   <h2>Movement</h2>
+  <p class="w3-large">Movement in Rat Samurai is designed to be floaty, fast, and responsive. There are multiple ways control is given to the player.</p>
+
+  <h3 class="w3-xlarge"><i>Jumping</i></h3>
+  <p class="w3-large">The core part of any platformer is the ability to jump. While on the ground, pressing the jump button will initiate upward movement. Holding the button for longer leads to higher jumps and delaying descent.</p>
+  <img src="../images/pink.png" alt="">
+  <p class="w3-small">Input the "Space" key or the A/X button.</p>
+
+  <h3 class="w3-xlarge"><i>Fast Falling</i></h3>
+  <p class="w3-large">By inputting the down direction for movement, the player will be pulled downward with more velocity.</p>
+  <img src="../images/pink.png" alt="">
+  <p class="w3-small">Input the "S" key or down on the left stick of a controller.</p>
+
+  <h3 class="w3-xlarge"><i>Dashing</i></h3>
+  <p class="w3-large">To evade enemies or make more difficult jumps, dashing can prove to be a useful tool. The player will obtain a surge of speed in the direction they are inputting when the dash button is pressed.</p>
+  <img src="../images/pink.png" alt="">
+  <p class="w3-small">Input "Left Shift" or the left bumper while inputting left / right character movement.</p>
+
+  <h3 class="w3-xlarge"><i>Air Jumping</i></h3>
+  <p class="w3-large">To give more expression to the player, there is also an ability to "jump" in the air. This differs from the freedom of "double jumps" in the fact that the player functionally "stores" their jump for later when they fall off a platform or launch off a bouncy surface. Jumping into the air consumes the jump pre-emptively.</p>
+  <img src="../images/pink.png" alt="">
+  <p class="w3-small">Shares inputs with the standard jump.</p>
+
   <h2>Exploration</h2>
+  <p class="w3-large">While part of the game's goal is to get to the end of the stage as quickly as possible, there are alternative areas and paths to discover in each stage.</p>
+  <img src="../images/pink.png" alt="">
+  <p class="w3-small">How does the player get there...?</p>
+
   <h2>Timing</h2>
+  <p class="w3-large">To keep the game replayable, each stage has its own timer to race against! The timer stops the moment you clear the stage boss and make it to the level completion area.</p>
+  <img src="../images/pink.png" alt="">
+
   <h2>Input Support</h2>
+  <p class="w3-large">Platformers feel best with your preferred input method. We support both keyboard and controller inputs!</p>
+  <img src="../images/pink.png" alt="">
+
 </div>
+
+<br><br>
 
 <!-- Gameplay -->
 <div class="w3-panel w3-leftbar">
-  <h1>Gameplay</h1>
+  <h1>Gameplay Demonstration</h1>
 </div>
 
 <div class="w3-container">
-  <h2>Tutorial</h2>
-  <h2>Design Ideas</h2>
+  <h2>Level 1</h2>
+  <img src="../images/pink.png" alt="">
+
+  <h2>Level 2</h2>
+  <img src="../images/pink.png" alt="">
+
 </div>
 
 <!-- Art Showcase -->
-<div class="w3-panel w3-leftbar">
+<!-- <div class="w3-panel w3-leftbar">
   <h1>Art</h1>
 </div>
 
 <div class="w3-container">
   <h2>The Rat</h2>
+  <p class="w3-large">The player character!</p>
   <h2>Hub</h2>
   <h2>Urban Stage</h2>
   <h2>Forest Stage</h2>
   <h2>Desert Stage</h2>
-</div>
+</div> -->
+
+<br><br>
 
 <!-- Documentation -->
 <div class="w3-panel w3-leftbar">
@@ -79,7 +164,16 @@
 </div>
 
 <div class="w3-container"></div>
+  <p class="w3-large">Looking for the code and documentation? Our project is on <a href="https://github.com/Rats-Incorporated/2D-Game-Dev">GitHub!</a></p>
+</div>
 
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64">
+  <div class="w3-xlarge w3-section">
+    <i class="fa-brands fa-square-github" href="https://github.com/Rats-Incorporated/2D-Game-Dev"></i>
+  </div>
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
 
 <script src="/js/index.js"></script>
 </body>
